@@ -1,17 +1,24 @@
 body{
-    background-color: aqua;
-}
-
-div p{
-
-    color:blue;
-}
-ul{
+    background-color: aquamarine}
+   button{
+    color:blueviolet;
+    
+   }
+   div{
+    color: brown;
+   }
+   #first-paragraf{
+    position: relative;
+    left: 10em;
+    color: blue;
+   }
+   #second-paragraf{
+    position: relative;
+    left: 10em;
     color: green;
 }
-button{
-    color:blueviolet;
-}
-div{
-    color: brown;
-}
+   #tree-paragraf{
+    position: relative;
+    left: 10em;
+    color: magenta;
+   }
