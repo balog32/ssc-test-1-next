@@ -1,4 +1,17 @@
 body{
     background-color: aqua;
 }
-button{button-color:read-only;}
+
+div p{
+
+    color:blue;
+}
+ul{
+    color: green;
+}
+button{
+    color:blueviolet;
+}
+div{
+    color: brown;
+}
