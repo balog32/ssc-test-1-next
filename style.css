@@ -1,24 +1,41 @@
-body{
-    background-color: aquamarine}
+body {
+        width: 600px;
+        margin: 0 auto;
+        background-color: aqua;
+        padding: 0 40px 80px 20px;
+        border: 5px solid black;
+      }
    button{
     color:blueviolet;
     
    }
-   div{
+div{
     color: brown;
+  
+    
    }
-   #first-paragraf{
-    position: relative;
-    left: 10em;
+ 
+   .first-paragraf{
+    image-resolution: 800;
+    text-align: center;
     color: blue;
    }
-   #second-paragraf{
-    position: relative;
+   .second-paragraf{
+    text-align: center;
     left: 10em;
     color: green;
-}
-   #tree-paragraf{
-    position: relative;
+    }
+   .tree-paragraf{
+    image-resolution: 800;
+    text-align: center;
     left: 10em;
     color: magenta;
    }
+  .container{
+    margin: 0%;
+    border: 0cap;
+    padding: 4rem;
+  }
+  h1{
+    text-align: center;
+  }
