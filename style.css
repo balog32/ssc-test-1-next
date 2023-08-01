@@ -1,41 +1,36 @@
-body {
-        width: 600px;
-        margin: 0 auto;
-        background-color: aqua;
-        padding: 0 40px 80px 20px;
-        border: 5px solid black;
-      }
-   button{
-    color:blueviolet;
-    
-   }
-div{
-    color: brown;
-  
-    
-   }
- 
-   .first-paragraf{
-    image-resolution: 800;
-    text-align: center;
-    color: blue;
-   }
-   .second-paragraf{
-    text-align: center;
-    left: 10em;
-    color: green;
+html{
+    background:black url(baground.jpg) center center no-repeat; background-size: cover;
+    color: white;
     }
-   .tree-paragraf{
-    image-resolution: 800;
-    text-align: center;
-    left: 10em;
-    color: magenta;
+
+body{
+    display: block;
+    margin: 0;
+    place-items: center;
+    font-family: inter, Helvetica, Aria, sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+  @media(main-width:500px) {body{display: grid;}}
+
+.container{ 
+    background-color: rgba(70, 100, 240, 0.8);
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
+    line-height: 1.5em;
+}
+   @media(main-width:500px) {.container{margin: 2 rem;}}
+   header{  }
+      .avatar{display: block; float: left;width: 140px; height: auto;
+     margin: 0 1em 0 0; border-radius: 50%;}
+      .TitlulPaginii{display: block; margin: 0; font-size:clamp(2rem, 6vw,4rem) line-height: 1em;}
+   main{
+
    }
-  .container{
-    margin: 0%;
-    border: 0cap;
-    padding: 4rem;
-  }
-  h1{
-    text-align: center;
-  }
+      .ListaLinkuri{display: block; margin: 0; padding: 0; border-top: 1px solid #fff;  }
+         .ListaItem{ display: block; margin: 0; padding: 0; border-bottom: 1px solid #fff;  }
+            .ListaLink{ display: block; padding: 0.5em; color: #fff; text-decoration: none;  } 
+            .ListaLink:hover { background: white; color: black;}
+               .ListaTitlu,.ListaText{display: block; margin: 0; padding: 0; font-size: 1em; line-height: 1.5em;}
+               .ListaText{  }
