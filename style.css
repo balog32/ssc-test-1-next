@@ -5,13 +5,18 @@ html{
 
 body{
     display: block;
-    margin: 0;
+    margin: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     place-items: center;
     font-family: inter, Helvetica, Aria, sans-serif;
     font-size: 24px;
     line-height: 1.5em;
 }
   @media(main-width:500px) {body{display: grid;}}
+    .LinkText{
+      text-align: justify;
+    }
 
 .container{ 
     background-color: rgba(70, 100, 240, 0.8);
