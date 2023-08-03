@@ -1,28 +1,42 @@
+html{
+    background: black url(backgroundindex.jpg) center center no-repeat; background-size: cover; color: #fff;
+    font-family: "Lucida Sans", sans-serif;
+}
 body{
-    padding: 1rem;
-    background-color: aquamarine;
+    display: center;
+}
+   main{
    }
-   
-    h1,b{
-    color: brown;
-   }
-   div{
-    padding-left: 80rem;
-    margin: 0rem;
-    color:blue
-   }
-   .container{
-    margin: 1rem;
-    
+      h1{
+      color: black
+     }
+     div{
+      padding-left: 80rem;
+      margin: 0rem;
+     color:#fff
+     }
+     .container{
+       margin: 1rem; padding: 0rem; margin-left: 80rem;
        }
-   h1{
-    text-align: center;
-    padding: 0;
+       p{
+        text-align: center;
+        color:#fff;
+        font-size: large;
+        text-transform: inherit; left: 2rem;
+       }
+      h1{
+       text-align: center;
+       padding: 0;
     
-   }
-    #inregistrare{
-    text-shadow: none;
-   }
-    .intrebare{
-    color: black;
-   }
+     }
+      #inregistrare{
+      text-shadow: none;
+     }
+      .intrebare{
+        color: #fff;
+     }
+     img{ margin-left: 4rem;poza
+      }
+      .ListaLink:hover{ 
+      display: block; padding: 0.5em; color: #fff; text-decoration: none; 
+      background: #fff; color: black; }

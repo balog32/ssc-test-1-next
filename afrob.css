@@ -1,0 +1,51 @@
+html{background: black url(backroundafro.jpg) center center no-repeat; background-size: cover; color: white;
+
+}
+   body{
+    display: block;
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    place-items: center;
+    font-family: inter, Helvetica, Aria, sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+
+    background-color:transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
+    line-height: 1.5em;
+
+   }
+    h1{
+        text-align: center;
+        color: black;
+    }
+      div{
+        color: black;
+        
+      }
+         ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: transparent;
+               
+            }
+            li{
+                display: block;
+                color: #000;
+                padding: 8px 0 8px 16px;
+                text-decoration: none;
+            }
+            li,a:hover{
+                color: white;
+            }
+            
+         main{
+           ;
+
+         }
+           
