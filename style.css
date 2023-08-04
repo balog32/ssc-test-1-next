@@ -36,6 +36,6 @@ body{
       .ListaLinkuri{display: block; margin: 0; padding: 0; border-top: 1px solid #fff;  }
          .ListaItem{ display: block; margin: 0; padding: 0; border-bottom: 1px solid #fff;  }
             .ListaLink{ display: block; padding: 0.5em; color: #fff; text-decoration: none;  } 
-            .ListaLink:hover { background: white; color: black; text-align: justify;}
-               .ListaTitlu,.ListaText{display: block; margin: 0; padding: 0; font-size: 1em; line-height: 1.5em; text-align: justify;}
+            .ListaLink:hover { background: white; color: black; ;}
+               .ListaTitlu,.ListaText{display: block; margin: 0; padding: 0; font-size: 1em; line-height: 1.5em; ;}
                .ListaText{  }

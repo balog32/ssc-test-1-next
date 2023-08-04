@@ -45,7 +45,11 @@ html{background: black url(backroundafro.jpg) center center no-repeat; backgroun
             }
             
          main{
-           ;
+          display: block; margin: 0; padding: 0; border-top: 1px solid black; 
 
+         }
+         .poze-site{
+            margin: 0;
+            padding: 0;
          }
            
