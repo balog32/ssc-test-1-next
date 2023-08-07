@@ -4,39 +4,54 @@ html{
 }
 body{
     display: center;
+   
 }
-   main{
-   }
-      h1{
-      color: black
-     }
-     div{
-      padding-left: 80rem;
-      margin: 0rem;
-     color:#fff
-     }
-     .container{
-       margin: 1rem; padding: 0rem; margin-left: 80rem;
-       }
-       p{
-        text-align: center;
-        color:#fff;
-        font-size: large;
-        text-transform: inherit; left: 2rem;
-       }
-      h1{
-       text-align: center;
-       padding: 0;
+      div{
+          left: 80em;
+          margin: 0rem;
+          color:#fff  
+        }
+        #button:hover{
+          background-color: blueviolet;
+         }
+         h1{
+          color: black;
+          text-align: center;
+          padding: 0;
+            }
+          .container{
+           text-align: end;
+            }
+          #inregistrare{ 
+            text-align: end;
+            text-shadow: none;
+             }
+             
+          .intrebare{
+            color: #fff;
+            text-align: end;
+            }
+            .ListaLink:hover{ 
+              display: block; padding: 0.5em; color: #fff; text-decoration: none; 
+              background: #fff; color: black; }
     
-     }
-      #inregistrare{
-      text-shadow: none;
-     }
-      .intrebare{
-        color: #fff;
-     }
-     img{ margin-left: 4rem;poza
-      }
-      .ListaLink:hover{ 
-      display: block; padding: 0.5em; color: #fff; text-decoration: none; 
-      background: #fff; color: black; }
+      main{
+         }
+           p{
+            text-align: center;
+            color:#fff;
+            font-size: large;
+            text-transform: inherit; left: 2rem;
+            }
+            a:hover{
+              color: aqua;
+            }
+            @media(main-width:500px) {.container{margin: 2 rem;}}
+            header{  }
+           .poza-site{ 
+            
+            margin-left: em;
+            width: 
+             }
+             @media(main-width:500px) {.container{margin: 2 rem;}}
+             header{  }
